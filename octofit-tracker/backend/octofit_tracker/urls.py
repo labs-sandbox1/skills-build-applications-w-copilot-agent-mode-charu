@@ -17,7 +17,6 @@ from django.contrib import admin
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
 from octofit_tracker import views
-import os
 
 router = DefaultRouter()
 router.register(r'teams', views.TeamViewSet)
